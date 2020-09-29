@@ -161,7 +161,8 @@ def total_cost(burritos: List[Burrito]) -> float:
 #Beans, and Rice classes in.
 #
 #If your function works correctly, this will originally
-#print: 27.0
+#print: 28.0
+
 burrito_1 = Burrito("tofu", True, "white", "black")
 burrito_2 = Burrito("steak", True, "white", "pinto", extra_meat = True)
 burrito_3 = Burrito("pork", True, "brown", "black", guacamole = True)
