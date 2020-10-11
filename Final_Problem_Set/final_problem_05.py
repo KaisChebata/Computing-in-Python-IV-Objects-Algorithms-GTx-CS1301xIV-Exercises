@@ -74,7 +74,10 @@ def check_plagiarism(file1, file2):
 # if i go crazy then
 # i left my body lying somewhere in the sands of time
 # False
-print(check_plagiarism("Final_Problem_Set\\file_1.txt", "Final_Problem_Set\\file_2.txt"))
-print(check_plagiarism("Final_Problem_Set\\file_1.txt", "Final_Problem_Set\\file_3.txt"))
-print(check_plagiarism("Final_Problem_Set\\file_2.txt", "Final_Problem_Set\\file_3.txt"))
+file_1_path = 'Final_Problem_Set\\Raw_Files\\file_1.txt'
+file_2_path = 'Final_Problem_Set\\Raw_Files\\file_2.txt'
+file_3_path = 'Final_Problem_Set\\Raw_Files\\file_3.txt'
+print(check_plagiarism(file_1_path, file_2_path))
+print(check_plagiarism(file_1_path, file_3_path))
+print(check_plagiarism(file_2_path, file_3_path))
 # ------------------------------------------------------------

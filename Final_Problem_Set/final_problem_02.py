@@ -66,9 +66,10 @@ def generate_name(file_name: str, full_name:str) -> str:
 #If your function works correctly, this will originally
 #print: Captain Hawk, Doctor Yellow Jacket, and Moon Moon,
 #each on their own line.
-print(generate_name("Final_Problem_Set\\heronames.txt", "Addison Zook"))
-print(generate_name("Final_Problem_Set\\heronames.txt", "Uma Irwin"))
-print(generate_name("Final_Problem_Set\\heronames.txt", "David Joyner"))
+heros_file_path = 'Final_Problem_Set\\Raw_Files\\heronames.txt'
+print(generate_name(heros_file_path, "Addison Zook"))
+print(generate_name(heros_file_path, "Uma Irwin"))
+print(generate_name(heros_file_path, "David Joyner"))
 
 # print(ord('A') - 65)
 # print(ord('B') - 65)
