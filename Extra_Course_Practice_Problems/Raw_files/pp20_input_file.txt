@@ -1,0 +1,4 @@
+test an a, test an A
+test an o, test an O
+test an m, test an M
+test a w, test a W
